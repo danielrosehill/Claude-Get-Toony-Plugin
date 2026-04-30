@@ -1,0 +1,12 @@
+{
+  "name": "get-toony",
+  "version": "1.0.0",
+  "description": "Convert JSON, CSV, YAML, and other structured data into TOON (Token-Oriented Object Notation) — a compact, LLM-friendly format that uses ~40% fewer tokens than JSON while remaining lossless. Wraps the @toon-format/toon CLI.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "repository": "https://github.com/danielrosehill/Claude-Get-Toony-Plugin",
+  "license": "MIT",
+  "keywords": ["toon", "token-optimization", "llm", "json", "csv", "data-format"]
+}
