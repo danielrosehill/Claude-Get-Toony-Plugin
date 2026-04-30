@@ -9,6 +9,9 @@ A Claude Code plugin for converting JSON, CSV, YAML, and other structured data i
 - `json-to-toon` — single-file JSON → TOON, with round-trip lossless check and token-saving report.
 - `csv-to-toon` — single-file CSV → TOON via JSON. Useful when feeding tabular data to an LLM with explicit field/length guardrails.
 - `batch-to-toon` — folder-level conversion with manifest, round-trip checks, resumability, and aggregate token-saving report.
+- `claude-md-user-to-toon` — convert `~/.claude/CLAUDE.md` and its imported context files into TOON (sibling artefact, not a replacement).
+- `claude-md-repo-to-toon` — convert a repo's CLAUDE.md (and nested ones) into TOON for context-cost analysis.
+- `claude-md-bulk-to-toon` — system-wide pass: walks user-level config plus every repo under the user's repo roots and reports aggregate context-token cost.
 
 ## Ecosystem tools the plugin can install
 
